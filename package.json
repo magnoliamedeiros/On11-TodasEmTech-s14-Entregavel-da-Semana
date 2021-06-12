@@ -1,0 +1,30 @@
+{
+  "name": "on11-todasemtech-s14-entregavel-da-semana",
+  "version": "1.0.0",
+  "description": "## Turma Online 11 - Todas em Tech | Back-end | 2021 | Semana 14 - Projeto Guiado",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnoliamedeiros/On11-TodasEmTech-s14-Entregavel-da-Semana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magnoliamedeiros/On11-TodasEmTech-s14-Entregavel-da-Semana/issues"
+  },
+  "homepage": "https://github.com/magnoliamedeiros/On11-TodasEmTech-s14-Entregavel-da-Semana#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
