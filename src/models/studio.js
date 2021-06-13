@@ -1,11 +1,12 @@
 const mongoose = require('mongoose')
 
 const studioSchema = new mongoose.Schema({
-    name: {
+    _id: mongoose.Schema.Types.ObjectId,
+    nameStudio: {
         type: String,
         required: true
     },
-    description: {
+    descriptionStudio: {
         type: String,
         required: true
     },
