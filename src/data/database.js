@@ -8,7 +8,9 @@ const con = ()=> {
     useNewUrlParser: true,
     useUnifiedTopology: true
 
-}).then(console.log('Database connected')).catch(err => console.error)}
+})
+.then(console.log('Database connected'))
+.catch(err => console.error)}
 
 module.exports = {
     con
